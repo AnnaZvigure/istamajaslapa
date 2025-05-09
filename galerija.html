@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PURE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+    .filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+    .filters button {
+      border: none;
+      background-color: #fce4ec;
+      border-radius: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 30px;
+      padding: 0 40px 40px;
+    }
+    .product {
+      text-align: center;
+    }
+    .product img {
+      max-width: 100px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PURE</h1>
+    <nav>
+      <a href="index.html">Par mums</a>
+      <a href="galerija.html">Produkti</a>
+      <a href="#">Kosmētika</a>
+      <a href="#">Jaunumi</a>
+      <a href="#">Make-up</a>
+      <a href="#">Atsauksmes</a>
+    </nav>
+    <div class="filters">
+      <button>Visi produkti</button>
+      <button>Sejas āda</button>
+      <button>Make-up</button>
+      <button>Īpašiem mirkļiem</button>
+      <button>Komplekti</button>
+    </div>
+  </header>
+
+  <main class="product-grid">
+    <div class="product">
+      <img src="https://lv2.pigugroup.eu/colours/104/015/73/10401573/sejas-toniks-clarins-hydrating-toning-lotion-400_reference.jpg" alt="Mitrinošs toniks">
+      <p>Mitrinošs toniks + sejas toniks</p>
+    </div>
+    <div class="product">
+      <img src="https://images.stockmann.com/products/2c9cd2cd8ca1a47fc38b13c4a9118ad0c513295f/550x734/3666057030901.jpg" alt="Zelta antioksidants">
+      <p>Zilās orhidejas sejas eļļa</p>
+    </div>
+    <div class="product">
+      <img src="https://media.douglas.lv/images/galleries/1669960463_065669-dd95ec566c530bb71b849c498001.jpg" alt="Wonder Perfect Mascara">
+      <p>Wonder Perfect Mascara 4D</p>
+    </div>
+    <div class="product">
+      <img src="https://i1.perfumesclub.com/grande/198794.jpg" alt="Viegls pīlings">
+      <p>Viegls pīlings maigai sejas ādai</p>
+    </div>
+    <div class="product">
+      <img src="kosmētikas-noņēmējs.webp" alt="Kosmētikas noņēmējs">
+      <p>Kosmētikas noņēmējs – āda</p>
+    </div>
+    <div class="product">
+      <img src="spf-krēms.webp" alt="Krēms ar SPF">
+      <p>Krēms dienai – SPF 20</p>
+    </div>
+    <div class="product">
+      <img src="tonizējoša-ķermeņa-essence.webp" alt="Tonizējoša esence">
+      <p>Tonizējoša ķermeņa esence</p>
+    </div>
+    <div class="product">
+      <img src="lūpu-krāsa.webp" alt="Sārtā lūpu krāsa">
+      <p>Sārtā lūpu krāsa</p>
+    </div>
+    <div class="product">
+      <img src="acu-zīmulis.webp" alt="Acu zīmulis">
+      <p>Acu zīmulis</p>
+    </div>
+    <div class="product">
+      <img src="toniks-ūdenī.webp" alt="Toniks">
+      <p>Toniks sejai</p>
+    </div>
+    <div class="product">
+      <img src="4toņu-kompakts.webp" alt="Kompaktais pūderis">
+      <p>4 toņu acu ēnu palete</p>
+    </div>
+    <div class="product">
+      <img src="ķermeņa-losjons.webp" alt="Ķermeņa losjons">
+      <p>Ķermeņa losjons</p>
+    </div>
+  </main>
+</body>
+</html>
